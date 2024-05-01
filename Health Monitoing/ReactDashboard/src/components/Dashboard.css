@@ -1,0 +1,69 @@
+.Dashboard-container {
+  display: flex;
+  flex-direction: column; /* Stack components in a column */
+  align-items: center; /* Center align items horizontally */
+  width: 100%; /* Ensure the container takes full width */
+  
+}
+
+button{
+  background-color: rgb(59, 146, 71);
+  color: white;
+  border: none ;
+}
+
+.Dashboard-container nav{
+display: block;
+}
+.Left-and-Main {
+  display: flex;
+  width: 100%; /* Ensure it takes full width */
+}
+
+
+.Main-outer {
+  display: flex;
+  flex-direction: column; /* Stack components in a column */
+  flex-grow: 1; /* Ensure Main-outer takes up remaining space */
+  width: 80vw; /* Take up remaining space after LeftComponent */
+}
+
+.middle-and-grafana {
+  display: flex;
+  justify-content: space-between; /* Space between MiddleComponent and GrafanaViewer */
+}
+
+.Prescription-and-Report {
+  display: flex;
+  justify-content: center; /* Center align the components */
+  align-items: flex-start; /* Align components at the top vertically */
+  margin-top: 20px; /* Add margin to separate from other components */
+  margin-top: 5rem;
+}
+
+.PrescriptionComponent,
+.MedicalReportComponent {
+  margin: 0 10px; /* Adjust margin between the components */
+  width:  50000px;
+}
+
+@media (max-width: 1100px) {
+  .Left-and-Main {
+    flex-direction: column;
+  }
+
+  .Main-outer {
+    width: 100%; /* Take full width on smaller screens */
+    display: block;
+  }
+  .middle-and-grafana {
+    display: block;
+    justify-content: space-between; /* Space between MiddleComponent and GrafanaViewer */
+  }
+  .Prescription-and-Report{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}

@@ -1,0 +1,215 @@
+.bgset{
+  background-image:
+    url(https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    text-align: center;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  @media(max-width: 991px) { padding: '20px' };
+  @media(max-width: 479px) { padding: '10px' }
+}
+
+/* For Signup and Login Page */
+.Card {
+  border: 1px solid rgb(255,255,255);
+  border-radius: 10px;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  box-shadow: none;
+  width: 100%;
+  padding: 30px;
+  backdrop-filter: blur(16px);
+  letter-spacing: 1px;
+  background-color: inherit !important;
+  @media(max-width:479px) { padding: 10px; height: 100% }
+}
+
+.Main-text{
+  color: white !important;
+  font-size: 40px;
+  font-weight: 600;
+
+  @media(max-width: 479px) {
+    font-size: 30px;
+  }
+
+}
+
+.Input {
+  border: none;
+  padding: 4px;
+  color: #ffffff !important;
+  width: 300px;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.Name-input {
+  padding: 4px;
+  color: #ffffff !important;
+  width: 50%;
+  font-size: 1rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+.Input-line {
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #ffffffff;
+}
+
+.Button {
+  color: black !important; 
+  border-radius: 30px !important;
+  background-color: #ffffff !important;
+  width: 100%;
+  padding: 14px !important;
+  @media(max-width:479px) { padding: 12px };
+  &:hover { background-color: inherit !important; color:white !important; border: 1px solid white };
+}
+
+.Google-button {
+  color: white !important; 
+  border-color: white !important;
+  border-radius: 30px !important;
+  width: 100%;
+  padding: 14px !important;
+  @media(max-width:479px) { padding: 12px };
+  &:hover { background-color: white !important; color:black !important; border: 0px };
+}
+
+.Link-text{
+  color: white !important;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+
+  @media(max-width: 479px) {
+    font-size: 14px;
+  }
+}
+
+/* Login Page */
+
+.Stack1{
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Checkbox{
+  padding: 0 !important;
+  color: white !important;
+  & .MuiSvgIcon-root {
+    font-size: 24px;
+  }
+  
+  &.Mui-checked {
+    color: white !important;
+  }
+}
+
+.Remember-text{
+  white-space: nowrap !important;
+  color: gray !important;
+
+  @media(max-width: 479px) {
+    font-size: 13px;
+  }
+}
+
+.Forget-text{
+  color: #ffffffff !important;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+
+  @media(max-width: 479px) {
+    font-size: 13px;
+  }
+
+}
+
+/* UserList Page */
+
+.UserList-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 65%;
+  box-shadow: none;
+  padding: 30px;
+  backdrop-filter: blur(16px);
+  letter-spacing: 1px;
+  background-color: inherit !important;
+  @media(max-width:479px) { padding: 10px; height: 80%; width:80%; gap: 10px }
+}
+
+.Password-change-box{
+  border: 1px solid white !important;
+  width: 60% !important;
+}
+
+.UserList-input {
+  background-color: transparent;
+  padding: 4px;
+  margin-top: 14px;
+  color: #ffffff !important;
+  width: 40%;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+}
+
+.UserList-password-button {
+  color: black !important; 
+  background-color: white !important;
+  border-radius: 5px;
+  padding: 8px !important;
+  @media(max-width:479px) { padding: 12px };
+  &:hover { background-color: inherit !important; color:white !important; border: 1px solid white };
+}
+
+.UserList-button {
+  color: black !important; 
+  border-color: black !important;
+  border-radius: 25px !important;
+  width: 6rem;
+
+  @media(max-width:479px) { padding: 12px };
+  &:hover { background-color: white !important; color:black !important; border: 0px };
+}
+
+.UserList-card .MuiTableCell-root {
+  font-size: 1.1rem; /* Adjust the font size as needed */
+  color: #ffffff;
+}
+.UserList-card .MuiButton-root {
+
+  color: black;
+  border-radius: 20px; /* Adjust the border radius as needed */
+  padding: 8px 16px; /* Adjust the padding as needed */
+  border: 1px solid white !important;
+  background-color: #ffffff;
+  align-items:center;
+  padding: 1rem 10px;
+  font-size: 0.9rem;
+  width: fit-content;
+
+}
+

@@ -1,0 +1,78 @@
+/* MiddleComponent.css */
+
+.middle-component {
+    width: 25vw;
+  
+  }
+  
+  .middle-component h2 {
+    padding-left: 5rem;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+  }
+  .middle-component button{
+    height: 2rem;
+    margin-top: 4.1rem;
+    width: 3.5rem;
+  }
+  
+  .middle-component
+  .patient-info-header {
+    display:inline-flex;
+  }
+  
+  .patient-info-header h2 {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .patient-info p{
+    padding : 0.3rem 0px 0px 7rem;
+    font-size: 1.2rem;
+  }
+
+  .prediction-container h2{
+    margin-right: 100px; 
+    
+  
+  }
+  
+  .prediction-container p{
+    padding : 0.3rem 0px 0px 7rem;
+    font-size: 1.2rem;
+  }
+  
+  
+  @media (max-width: 1300px) {
+    .middle-component {
+      width: 30vw; /* Adjust width of MiddleComponent */
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .middle-component {
+      width: 100vw;
+      text-align: center; /* Align text to center */
+    }
+  
+    .middle-component h2 {
+      padding-left: 0; /* Remove left padding */
+      text-align: center; /* Align h2 to center */
+    }
+  
+    .middle-component button {
+      margin-top: 2rem; /* Adjust margin for button */
+    }
+  
+    .patient-info p {
+      padding-left: 0; /* Remove left padding */
+      text-align: center; /* Align paragraphs to center */
+    }
+    .middle-component button{
+      height: 2rem;
+      margin-top: 4rem;
+    }
+    .prediction-container p{
+      padding-left: 0;
+      text-align: center;
+    }
+  }

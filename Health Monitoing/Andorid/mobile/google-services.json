@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202214961634",
+    "project_id": "heart-dc60d",
+    "storage_bucket": "heart-dc60d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202214961634:android:d299d2315624e02652c9bb",
+        "android_client_info": {
+          "package_name": "com.example.homepage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO9GMQZAy44O5cJQ9DPu6LWnkUApCCn6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202214961634:android:138c74ffd098eb4d52c9bb",
+        "android_client_info": {
+          "package_name": "com.example.passivedatacompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO9GMQZAy44O5cJQ9DPu6LWnkUApCCn6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter name" />
+
+        <TextView
+            android:id="@+id/ageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:layout_below="@id/nameEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ageLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:hint="Enter age" />
+
+        <TextView
+            android:id="@+id/genderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_below="@id/ageEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/genderEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genderLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter gender" />
+
+        <TextView
+            android:id="@+id/bpsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPS"
+            android:layout_below="@id/genderEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bpsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bpsLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:hint="Enter BPS" />
+
+        <TextView
+            android:id="@+id/fbsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FBS"
+            android:layout_below="@id/bpsEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fbsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fbsLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:hint="Enter FBS" />
+
+        <TextView
+            android:id="@+id/cholesterolLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cholesterol"
+            android:layout_below="@id/fbsEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cholesterolEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cholesterolLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:hint="Enter cholesterol" />
+
+        <TextView
+            android:id="@+id/bloodGroupLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:layout_below="@id/cholesterolEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bloodGroupEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bloodGroupLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter blood group" />
+
+        <TextView
+            android:id="@+id/doctorIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor ID"
+            android:layout_below="@id/bloodGroupEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/doctorIdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctorIdLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter doctor ID" />
+
+        <TextView
+            android:id="@+id/heightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:layout_below="@id/doctorIdEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heightLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:hint="Enter height" />
+
+        <TextView
+            android:id="@+id/weightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:layout_below="@id/heightEditText"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weightLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:hint="Enter weight" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weightEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Confirm"
+            android:background="@drawable/button_background"/>
+
+
+    </RelativeLayout>
+</ScrollView>

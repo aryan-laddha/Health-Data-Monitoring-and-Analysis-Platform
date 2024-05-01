@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_report_svg.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\report_svg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_redbutton.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\redbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_heart_icon_svg.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\heart_icon_svg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_pen.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_pen.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_fragment_report.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_fragment_wearable_communication.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_wearable_communication.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.passivedatacompose.mobile-merged_res-39:/layout_activity_login.xml.flat",
+        "source": "com.example.passivedatacompose.mobile-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_pencil.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\pencil.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_bottom_border.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\bottom_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-merged_res-39:\\drawable_ic_report.xml.flat",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\drawable\\ic_report.xml"
+    }
+]

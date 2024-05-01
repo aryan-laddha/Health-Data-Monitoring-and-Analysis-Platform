@@ -1,0 +1,88 @@
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 34
+
+    namespace "com.example.passivedatacompose"
+
+    defaultConfig {
+        applicationId "com.example.passivedatacompose"
+        minSdk 30
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.majorVersion
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion libs.versions.compose.compiler.get()
+    }
+    packagingOptions {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'com.google.android.gms:play-services-wearable:18.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'androidx.core:core-ktx:1.12.0'
+    // General compose dependencies
+    implementation libs.androidx.activity.compose
+    implementation libs.compose.ui.tooling
+    implementation libs.compose.ui.tooling.preview
+
+    implementation libs.wear.compose.material
+    implementation libs.wear.compose.foundation
+
+    implementation libs.androidx.lifecycle.viewmodel.compose
+    implementation libs.compose.material.icons.extended
+
+    // Health Services
+    implementation libs.androidx.health.services
+
+    // Used to bridge between Futures and coroutines
+    implementation libs.guava
+    implementation libs.concurrent.futures
+
+    // Used for WorkManager
+    implementation libs.androidx.work
+    implementation libs.androidx.work.ktx
+
+    // Used for Datastore
+    implementation libs.androidx.datastore
+
+    // Used for permissions
+    implementation libs.accompanist.permissions
+    implementation libs.play.services.tasks
+}

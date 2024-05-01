@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="ViewLayoutColor">?colorBackgroundFloating</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+</resources>

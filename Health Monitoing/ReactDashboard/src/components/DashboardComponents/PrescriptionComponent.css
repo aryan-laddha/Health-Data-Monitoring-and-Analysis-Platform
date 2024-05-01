@@ -1,0 +1,118 @@
+.prescription-container {
+    width: 30vw; /* Adjust as needed */
+    margin: 2rem 5rem;
+    padding: 20px;
+    border: 5px solid #ccc; /* Add border for the box */
+    border-radius: 15px; /* Optional: Add border radius */
+    height: 25rem;
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .prescription-scrollable-list {
+    max-height: calc(100% - 40px); /* Subtract padding */
+    overflow-y: auto;
+  }
+  
+  .prescription-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .prescription-header h2 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  
+  .prescription-list {
+    margin-top: 50px;
+  }
+  
+  .prescription-header button {
+    font-size: 1.6rem;
+    margin: 0;
+    height: auto;
+    width: auto;
+    padding: 3px 10px;
+  }
+  
+  .prescription-modal {
+    /* Your modal styles */
+  }
+  
+  .prescription-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .prescription-list ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    font-size: 1.3rem;
+  }
+  
+  .prescription-list li {
+    margin-bottom: 10px;
+  }
+  
+  .prescription-list a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .prescription-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .prescription-line {
+    border-bottom: 1px solid #ccc; /* Add line at the bottom */
+    margin-top: 5px; /* Adjust spacing */
+  }
+
+  .close{
+    color:red;
+    font-size: 2.4rem;
+    font-weight: bolder;
+  }
+  
+
+  /* PrescriptionComponent.css */
+
+.generate-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000; /* Set a higher z-index value */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.generate-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.generate-modal-content .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .prescription-container{
+    margin:  10px auto;
+    width: 80vw;
+  }
+}

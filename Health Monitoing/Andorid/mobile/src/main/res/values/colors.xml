@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#f48787</color>
+    <color name="heading1">#2E7612</color>
+    <color name="greenButton">#5FBC39</color>
+    <color name ="color_primary">#f48787</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bottom_nav_icon_color">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="seed">#f48787</color>
+    <color name="error">#BA1B1B</color>
+    <color name="black">#000000</color>
+
+    <color name="off_white">#F5F5F5</color>
+
+    <color name="hint">#AFAFAF</color>
+</resources>    

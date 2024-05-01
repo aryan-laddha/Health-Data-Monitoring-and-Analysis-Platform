@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\fragment_report.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_report.xml"
+    },
+    {
+        "merged": "com.example.passivedatacompose.mobile-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "com.example.passivedatacompose.mobile-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\fragment_wearable_communication.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\fragment_wearable_communication.xml"
+    },
+    {
+        "merged": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-mergeDebugResources-38:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\aryan\\.gradle\\daemon\\8.6\\com.example.passivedatacompose.mobile-main-41:\\layout\\activity_signup.xml"
+    }
+]

@@ -1,0 +1,127 @@
+.grafana-viewer {
+  position: relative; /* Set position to relative */
+  width: 55vw;
+  padding: 5px;
+}
+
+.navigation-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.sign-out-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.5rem 8px 8px 8px ;
+  transition: background-color 0.1s;
+  margin-right: 10px; /* Add margin between buttons */
+  font-size: 1rem;
+
+}
+
+.sign-out-button:hover {
+  background-color: #b71c1c; /* Darker Red */
+}
+/*
+.back-button {
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 5px 10px;
+  padding: 0.5rem 3px 1.5rem 3px ;
+  transition: background-color 0.1s;
+}
+
+.back-button:hover {
+  background-color: #084d0b; 
+}*/
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+input,
+select,
+button {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #000000; /* Light Grey */
+  margin: 3px 5px 3vh 0px;
+  font-size: 1rem;
+}
+
+.panels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.panel {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: #fff; /* White */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.panel-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.panel1 {
+  width: 100vh;
+  height: 30rem;
+}
+
+#panel2,
+#panel3,
+#panel4 {
+  width: calc(33.333% - 6rem); /* Decrease the subtraction value */
+  height: 170px; /* Reduce the height */
+}
+
+@media (max-width: 1300px) {
+  .grafana-viewer {
+    width: 70vw; /* Adjust width of GrafanaViewer */
+  }
+}
+
+@media (max-width: 1100px) {
+  .grafana-viewer {
+    width: 100vw;
+    align-items: center;
+    padding: 0;
+    margin-top: 5rem;
+  }
+  
+  .panel1 {
+    align-items: center;
+  }
+  
+  #panel2,
+  #panel3,
+  #panel4 {
+    width: calc(33.333% - 1rem); /* Decrease the subtraction value */
+    height: 170px; /* Reduce the height */
+  }
+  .sign-out-button{
+  display: none;
+  }
+
+
+
+}

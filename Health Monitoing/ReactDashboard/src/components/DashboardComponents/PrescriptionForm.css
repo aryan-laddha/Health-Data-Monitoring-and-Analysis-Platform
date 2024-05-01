@@ -1,0 +1,12 @@
+/* PrescriptionForm.css */
+
+.Prescription-generate-container {
+  width: 50vw;
+  margin: auto; /* Center the form horizontally */
+  padding: 2rem; /* Add some padding for better spacing */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  border-radius: 8px; /* Add rounded corners for aesthetics */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+
